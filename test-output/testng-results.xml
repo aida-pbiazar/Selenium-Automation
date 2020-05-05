@@ -1,61 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10606" started-at="2019-05-02T03:23:14Z" finished-at="2019-05-02T03:23:24Z">
+  <suite started-at="2020-05-05T12:28:35Z" name="Default suite" finished-at="2020-05-05T12:28:51Z" duration-ms="16344">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10606" started-at="2019-05-02T03:23:14Z" finished-at="2019-05-02T03:23:24Z">
-      <class name="com.epam.pages.ApiTest">
-        <test-method status="PASS" signature="testgetByID(java.lang.String, java.lang.String)[pri:0, instance:com.epam.pages.ApiTest@4501b7af]" name="testgetByID" duration-ms="8065" started-at="2019-05-01T23:23:14Z" data-provider="planetID" finished-at="2019-05-01T23:23:22Z">
+    <test started-at="2020-05-05T12:28:35Z" name="Default test" finished-at="2020-05-05T12:28:51Z" duration-ms="16344">
+      <class name="com.google.tests.GoogleSearchTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.tests.GoogleSearchTests@20d3d15a]" started-at="2020-05-05T08:28:35Z" name="setup" finished-at="2020-05-05T08:28:42Z" duration-ms="6705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchSecondResultPage(java.lang.String)[pri:0, instance:com.google.tests.GoogleSearchTests@20d3d15a]" started-at="2020-05-05T08:28:42Z" name="searchSecondResultPage" data-provider="languages" finished-at="2020-05-05T08:28:51Z" duration-ms="9609" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tatooine]]>
+                <![CDATA[en]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testgetByID -->
-        <test-method status="PASS" signature="testgetByID(java.lang.String, java.lang.String)[pri:0, instance:com.epam.pages.ApiTest@4501b7af]" name="testgetByID" duration-ms="1262" started-at="2019-05-01T23:23:22Z" data-provider="planetID" finished-at="2019-05-01T23:23:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Alderaan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testgetByID -->
-        <test-method status="PASS" signature="testgetByID(java.lang.String, java.lang.String)[pri:0, instance:com.epam.pages.ApiTest@4501b7af]" name="testgetByID" duration-ms="1230" started-at="2019-05-01T23:23:23Z" data-provider="planetID" finished-at="2019-05-01T23:23:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yavin IV]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testgetByID -->
-      </class> <!-- com.epam.pages.ApiTest -->
+        </test-method> <!-- searchSecondResultPage -->
+      </class> <!-- com.google.tests.GoogleSearchTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
